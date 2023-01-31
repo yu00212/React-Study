@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react/cjs/react.production.min';
-import ColorfulMessage from './components/ColorfulMessage';
+// {}で囲まれてる場合は、default exportではなく、exportされてる
+import { ColorfulMessage } from './components/ColorfulMessage';
 
 const App = () => {
     const [num, setNum] = useState(0);
